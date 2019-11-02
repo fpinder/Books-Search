@@ -71,7 +71,7 @@ class Books extends Component {
                         <ViewBtn onClick={() => this.viewBook(book.link)} />
                       </Col>
                     </Row>
-                    <p>Written by {book.author}</p>
+                    <p className="text-primary">Written by {book.author}</p>
                     <p className="text-justify">{book.description}</p>
                   </ListItem>
                 ))}

@@ -96,9 +96,9 @@ class Detail extends Component {
                         <ViewBtn onClick={() => this.viewBook(book.volumeInfo.previewLink)} />
                       </Col>
                     </Row>
-                    <p>Written by {book.volumeInfo.authors || "Not provided by Google Books API"}</p>
+                    <p className="text-primary">Written by {book.volumeInfo.authors || "Not provided by Google Books API"}</p>
                     <p className='text-justify'>{book.volumeInfo.description}</p>
-                    <a href={book.saleInfo.buyLink}>
+                    <a className="text-danger" href={book.saleInfo.buyLink}>
                       Book's Information
                     </a>
                   </ListItem>
