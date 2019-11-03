@@ -10,11 +10,31 @@
 
 <a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/index.jpg" alt="Home Page"></a>
 
-*The application also has an error checking process before the page is submitted to ensure that the user has entered a  Book Search name*
+**The application also has an error checking process before the page is submitted to ensure that the user has entered a  Book Search name**
 
 `Error Checking`
 
 <a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/noBooks.jpg" alt="Error Checking"></a>
+
+`Search Page`
+
+**User can search for books via the Google Books API**
+
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/search.jpg" alt="Search Page"></a>
+
+
+`SaleInfo Page`
+
+**The "Book's Sale information"**
+
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/saleInfo.jpg" alt="SaleInfo Page"></a>
+
+`Save Book Page`
+
+**All books saved to the Mongo database**
+
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/saved.jpg" alt="Save Book Page"></a>
+
 
 **The application  Book Search is organized with the following structure:** 
 
