@@ -36,64 +36,33 @@
 <a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/saved.jpg" alt="Save Book Page"></a>
 
 
-**The application  Book Search is organized with the following structure:** 
+**The application  Book Search is organized with the following collection** 
 
 ```
-Burger
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-
+{
+  authors: ["Suzanne Collins"]
+  description: "Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature."
+  image: "http://books.google.com/books/content?id=sazytgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  link: "http://books.google.com/books?id=sazytgAACAAJ&dq=title:The+Hunger+Games&hl=&source=gbs_api"
+  title: "The Hunger Games"
+}
 
 ```
 
 
 **_Technology used_**
 
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/MERN-Stack.jpg" alt="MERN-Stack"></a>
+
 *This app uses JavaScript, Node.js, Mysql and 5 NPM packages: Express, Express-handlebars, express-validato, Body-parser, dotenv and Nodemon*
 
- Files Used   |  Role in the App                                                                  |
+ Technology used   |  Role in the App                                                                  |
 | ------------ | -------------------------------------------------------------------------------------- |
-| node_modules | node modules includes the  NPM packages |
-| express         | used to handle routing |
-| .gitignore   | This will tell git not to track these files, and thus they won't be committed to Github |
-| package.json | JSON Source file the has all the dependencies.                    |
-| bodyParser  | Used to sets up the Express app to handle data parsing. |
-| Dotenv  |Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. | 
-| Express | A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.  |
-| Express-handlebars | Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.  |
-| Nodemon | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. | 
-| express-validator | Express middleware for the validator module. |
+| * MongoDB (https://www.mongodb.com) | An open source database management system (DBMS) |
+| * Express (https://expressjs.com/)  | Node js web application server framework, which is specifically designed for building single-page, multi-page, and hybrid web applications. It has become the standard server framework for node.js |
+| * REACT (https://reactjs.org/)   | Declarative, efficient, and flexible JavaScript library for building user interfaces |
+| * Node (https://nodejs.org/en/) |  platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. |
+
 
 **Config Setup:** *`connection.js` setup the code to connect Node to MySQL. `orm.js` methods that will execute the necessary MySQL commands in the controllers. These methods will be used to retrieve and store data in your database* 
 
