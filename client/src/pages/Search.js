@@ -48,9 +48,15 @@ class Detail extends Component {
 
   searchBook = event => {
     event.preventDefault();
-
     API.getTitles(this.state.title)
-      .then(results => this.showBooks(results))
+      .then(results => {
+        if (results.data.totalItems === 0) {
+          alert("SOORY NO BOOKS AVAILABLE")
+        } else {
+          this.showBooks(results)
+        }
+
+      })
       .catch(err => console.log(err));
   }
 
@@ -82,9 +88,10 @@ class Detail extends Component {
           <Container>
             {this.state.books.length ? (
               <List>
+                {console.log(this.state.books)}
                 {this.state.books.map(book => (
                   <ListItem key={book.id}>
-                    <img className="float-left mb-1 mr-4" src={book.volumeInfo.imageLinks.thumbnail} alt={book.title} />
+                    <img className="float-left mb-1 mr-4" src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : "https://via.placeholder.com/150"} alt={book.title} />
                     <Row>
                       <Col size='8'>
                         <strong>
