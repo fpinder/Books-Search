@@ -4,19 +4,17 @@
 
 **Object**
 
-*The Application [ Book Search](https://radiant-peak-47487.herokuapp.com/) hosted on Heroku is created has a Google app with two pages a search and a saved page Search - User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
+*The Application [ Book Search](https://floating-chamber-19128.herokuapp.com/) hosted on Heroku is created has a Google app with two pages a search page and a saved page. `Search Page` - User can search for books via the Google Books API and render them on the search page. Users have the option to "View" a book, bringing them to the book on Google Books, view the "Book's Sale information" link as returned from the Google Books API or "Save" a book, saving it to the Mongo database. `Saved Page` - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.*
 
-Saved - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.*
+`index Page`
 
-`index handlebars Page`
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/index.jpg" alt="Home Page"></a>
 
-<a href="#"><img src="https://github.com/fpinder/burger/blob/master/public/assets/images/eat_the_burger_Readme.JPG" alt="Home Page"></a>
-
-*The application also has an error checking process `(express-validator)` before the page is submitted to ensure that the user has entered a  Book Search name to prevent empty fields in the database*
+*The application also has an error checking process before the page is submitted to ensure that the user has entered a  Book Search name*
 
 `Error Checking`
 
-<a href="#"><img src="#" alt="error checking"></a>
+<a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/noBooks.jpg" alt="Error Checking"></a>
 
 **The application  Book Search is organized with the following structure:** 
 
