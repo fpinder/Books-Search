@@ -54,7 +54,7 @@
 
 <a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/MERN-Stack.jpg" alt="MERN-Stack"></a>
 
-*This app uses MongoDB, Express, REACT, and Node*
+**This app uses MongoDB, Express, REACT, and Node**
 
  Technology used   |  Role in the App                                                                  |
 | ------------ | -------------------------------------------------------------------------------------- |
