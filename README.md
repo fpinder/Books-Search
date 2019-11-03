@@ -54,7 +54,7 @@
 
 <a href="#"><img src="https://github.com/fpinder/Books-Search/blob/master/client/images/MERN-Stack.jpg" alt="MERN-Stack"></a>
 
-*This app uses JavaScript, Node.js, Mysql and 5 NPM packages: Express, Express-handlebars, express-validato, Body-parser, dotenv and Nodemon*
+*This app uses MongoDB, Express, REACT, and Node*
 
  Technology used   |  Role in the App                                                                  |
 | ------------ | -------------------------------------------------------------------------------------- |
@@ -63,16 +63,6 @@
 | * REACT (https://reactjs.org/)   | Declarative, efficient, and flexible JavaScript library for building user interfaces |
 | * Node (https://nodejs.org/en/) |  platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. |
 
-
-**Config Setup:** *`connection.js` setup the code to connect Node to MySQL. `orm.js` methods that will execute the necessary MySQL commands in the controllers. These methods will be used to retrieve and store data in your database* 
-
-**Model Setup:** *`burger.js` the code that will call the ORM functions using burger specific input for the ORM*
-
-**Controller Setup:** *`burgers_controller.js` control the routers for the app*
-
-**View Setup:** *`index.handlebars` file used by Handlebars and `index.handlebars` to have the template that Handlebars can render onto* 
-
-**DB Setup/excerpts** *The application's data is stored in MySql via the `schema.sql.` and `seeds.sql`* 
 
 #
 Lincense by <a href="https://creativecommons.org/licenses/by/3.0/" rel="nofollow">CC-BY</a>
